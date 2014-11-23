@@ -12,8 +12,8 @@ public class SelectionSort {
     public static int[] sort(int[] a){
         
         int n = a.length-1;
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
+        for(int i=0;i<=n;i++){
+            for(int j=i+1;j<=n;j++){
                 if(a[i]>a[j]){
                     //swap
                     int temp = a[i];

@@ -1,5 +1,5 @@
 public class SelectionSort {
-    public int[] a;
+    //public int[] a;
     public static int[] sort(int[] a){
         
         int n = a.length-1;

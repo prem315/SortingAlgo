@@ -17,11 +17,11 @@ public class SelectionSort {
         
     }
     
-    public static int swap(int[] a,int p, int q){
+    public static int[] swap(int[] a,int p, int q){
         int temp = a[p];
         a[p] = a[q];
         a[q] = temp;
-        return 0;
+        return a;
     }
     
     public static void main(String ar[]){
